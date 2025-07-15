@@ -77,6 +77,7 @@ function App() {
                 <Route path="/nft-tier/:id" element={<NFTDetailsPage2 />} />
                 <Route path="/lucky-draw" element={<LuckyDrawPage />} />
                 <Route path="*" element={<NotFoundPage />} />
+                {/* <Route path="*" element={<NotFoundPage />} /> */}
               </Routes>
             </main>
           </Layout>
